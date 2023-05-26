@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-family: Roboto, sans-serif;
 }
 
 *,
@@ -9,4 +10,38 @@ html {
   padding: 0;
   box-sizing: inherit;
 }
-  
+ 
+.container {
+  width: 1024px;
+  margin: 0 auto;
+}
+ 
+.header {
+  background-color: #1f2937;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 16px 0;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+a {
+  text-decoration: none;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
