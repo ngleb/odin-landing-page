@@ -99,3 +99,68 @@ html {
   aspect-ratio: 2 / 1;
 }
 
+
+/* Info section with images */
+
+.info-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info-header {
+  padding-top: 48px;
+  color: #1f2937;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.info-cards {
+  padding-top: 48px;
+  padding-bottom: 128px;
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+
+.card {
+  flex: 0 1 168px;
+}
+
+.info-image {
+  max-width: 100%;
+  border: 4px solid #3882f6;
+  border-radius: 16px;
+}
+
+.info-subtext {
+  text-align: center;
+  color: #4b5563;
+  font-size: 18px;
+  line-height: 1.15;
+}
+
+
+/* Quote section */
+.quote {
+  background-color: #e5e7eb;
+}
+
+.quote-content {
+  padding: 128px 128px 96px;
+}
+
+.quote-text {
+  color: #1f2937;
+  font-style: italic;
+  font-size: 36px;
+  font-weight: 300;
+  line-height: 1.15;
+}
+
+.quote-author {
+  text-align: right;
+  color: #1f2937;
+  font-size: 24px;
+  font-weight: 700;
+}
